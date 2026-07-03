@@ -15,6 +15,10 @@ public class Modelo {
     private char status;
 
     //Construtor que setta o nome do modelo
+    public Modelo(String nome){
+        this.nome = nome;
+    }
+
     public Modelo(String nome,char status){
         this.nome = nome;
         this.status = status;
